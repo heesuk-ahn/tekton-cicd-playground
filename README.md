@@ -1,4 +1,3 @@
-![start-message](./static/start-message.png)
 
 # Tekton Local Playground
 
