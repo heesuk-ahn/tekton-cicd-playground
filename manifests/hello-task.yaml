@@ -1,0 +1,12 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: hello
+  namespace: tekton-pipelines
+spec:
+  steps:
+    - name: echo
+      image: busybox
+      script: |
+        #!/bin/sh
+        echo "Hello World"
